@@ -1,9 +1,9 @@
 const RESOURCES = {
-  example: 'example'
-}
+  example: 'example',
+};
 
 export const ENDPOINT = {
   example: {
-    index: `${RESOURCES.example}`
-  }
-}
+    index: `${RESOURCES.example}`,
+  },
+};

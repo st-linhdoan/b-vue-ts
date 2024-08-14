@@ -1,5 +1,5 @@
 interface HelloWorldProps {
-  msg: string
+  msg: string;
 }
 
 const HelloWorld = (props: HelloWorldProps) => {
@@ -8,7 +8,7 @@ const HelloWorld = (props: HelloWorldProps) => {
       <h1>{props.msg}</h1>
       <p>This is a functional TSX component in Nuxt 3!</p>
     </div>
-  )
-}
+  );
+};
 
-export default HelloWorld
+export default HelloWorld;

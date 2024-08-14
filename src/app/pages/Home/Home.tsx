@@ -1,4 +1,4 @@
-import HelloWorld from '../components/HelloWorld'
+import HelloWorld from '../../shared/components/HelloWorld';
 
 const HomePage = async () => {
   return (
@@ -6,7 +6,7 @@ const HomePage = async () => {
       This is home page !
       <HelloWorld msg="Hello" />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

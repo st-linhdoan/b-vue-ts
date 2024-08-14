@@ -6,6 +6,9 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
   plugins: [vue(), vueJsx()],
+  server: {
+    port: 3000 // Change this to your desired port
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
