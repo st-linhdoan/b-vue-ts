@@ -1,6 +1,6 @@
-import HelloWorld from '../../shared/components/HelloWorld';
+import HelloWorld from '../../../shared/components/HelloWorld';
 
-const HomePage = async () => {
+const HomePage = () => {
   return (
     <div>
       This is home page !
