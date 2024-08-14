@@ -1,4 +1,4 @@
-const Home = () => import('./containers');
+const Home = () => import('./containers/Home');
 
 const homeRoutes = [
   {

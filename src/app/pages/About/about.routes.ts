@@ -1,4 +1,4 @@
-const About = () => import('./containers');
+const About = () => import('./containers/About');
 
 const aboutRoutes = [
   {
