@@ -19,6 +19,7 @@
     "outDir": "build",
     "allowSyntheticDefaultImports": true,
     "paths": {
+      "@": ["src"],
       "@app/*": ["src/app/*"],
       "@core/*": ["src/app/core/*"],
       "@shared/*": ["src/app/shared/*"],
